@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/owid/energy-data",
+  "commit": "7e387a16f70a510e433f8aac7efeac6faa1e5059",
+  "source_url": "https://raw.githubusercontent.com/owid/energy-data/7e387a16f70a510e433f8aac7efeac6faa1e5059/owid-energy-data.csv",
+  "source_sha256": "266f2e2baad7975351bc9bb4aa061d22b1da9fe4c47d51d2ac6071e01e171f76",
+  "subset_sha256": "f75541907384092d8d227580a0f8693f5875b47dd3988fa65007ec1872e3ad83",
+  "retrieved": "2026-09-28",
+  "attribution": "Our World in Data: Hannah Ritchie, Pablo Rosado and Max Roser; electricity series sourced from Ember / Energy Institute as documented in the source codebook.",
+  "license": "OWID-produced data CC BY; upstream data retain source terms. See DATA.md and source-codebook.csv.",
+  "selection": "Six named countries, 2000\u20132024; missing values retained",
+  "rows": 150
+}

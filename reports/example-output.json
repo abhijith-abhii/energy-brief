@@ -1,0 +1,315 @@
+{
+  "answer": "India: renewable electricity share changed by 5.76 percentage points between 2000 and 2024. Electricity generation changed from 571.4 to 2,036.5 TWh. This descriptive comparison does not identify policy effects or investment returns.",
+  "bars": [
+    {
+      "label": "2000",
+      "value": 14.048
+    },
+    {
+      "label": "2001",
+      "value": 13.0
+    },
+    {
+      "label": "2002",
+      "value": 11.938
+    },
+    {
+      "label": "2003",
+      "value": 11.695
+    },
+    {
+      "label": "2004",
+      "value": 15.638
+    },
+    {
+      "label": "2005",
+      "value": 15.254
+    },
+    {
+      "label": "2006",
+      "value": 17.135
+    },
+    {
+      "label": "2007",
+      "value": 17.802
+    },
+    {
+      "label": "2008",
+      "value": 16.768
+    },
+    {
+      "label": "2009",
+      "value": 15.166
+    },
+    {
+      "label": "2010",
+      "value": 15.114
+    },
+    {
+      "label": "2011",
+      "value": 16.656
+    },
+    {
+      "label": "2012",
+      "value": 14.868
+    },
+    {
+      "label": "2013",
+      "value": 16.034
+    },
+    {
+      "label": "2014",
+      "value": 15.77
+    },
+    {
+      "label": "2015",
+      "value": 14.625
+    },
+    {
+      "label": "2016",
+      "value": 14.438
+    },
+    {
+      "label": "2017",
+      "value": 15.451
+    },
+    {
+      "label": "2018",
+      "value": 16.294
+    },
+    {
+      "label": "2019",
+      "value": 17.617
+    },
+    {
+      "label": "2020",
+      "value": 19.007
+    },
+    {
+      "label": "2021",
+      "value": 18.791
+    },
+    {
+      "label": "2022",
+      "value": 20.19
+    },
+    {
+      "label": "2023",
+      "value": 19.287
+    },
+    {
+      "label": "2024",
+      "value": 19.808
+    }
+  ],
+  "chart_title": "Renewable share of electricity (%)",
+  "details": {
+    "annual_growth_method": "geometric growth across observed endpoints; missing intermediate observations not interpolated",
+    "missing_values": {},
+    "observed_endpoints": [
+      2000,
+      2024
+    ],
+    "requested_years": [
+      2000,
+      2024
+    ],
+    "scope": "electricity generation, not total energy consumption",
+    "source": {
+      "attribution": "Our World in Data: Hannah Ritchie, Pablo Rosado and Max Roser; electricity series sourced from Ember / Energy Institute as documented in the source codebook.",
+      "commit": "7e387a16f70a510e433f8aac7efeac6faa1e5059",
+      "license": "OWID-produced data CC BY; upstream data retain source terms. See DATA.md and source-codebook.csv.",
+      "repository": "https://github.com/owid/energy-data",
+      "retrieved": "2026-09-28",
+      "rows": 150,
+      "selection": "Six named countries, 2000\u20132024; missing values retained",
+      "source_sha256": "266f2e2baad7975351bc9bb4aa061d22b1da9fe4c47d51d2ac6071e01e171f76",
+      "source_url": "https://raw.githubusercontent.com/owid/energy-data/7e387a16f70a510e433f8aac7efeac6faa1e5059/owid-energy-data.csv",
+      "subset_sha256": "f75541907384092d8d227580a0f8693f5875b47dd3988fa65007ec1872e3ad83"
+    }
+  },
+  "metrics": {
+    "Generation CAGR": "5.44%",
+    "Latest generation": "2,036.5 TWh",
+    "Renewables share": "19.8%",
+    "Share change": "+5.76 pp"
+  },
+  "notice": "Research snapshot through 2024, not a live forecast. Compare observed endpoints and inspect missingness before interpreting trends.",
+  "rows": [
+    {
+      "electricity_generation": 571.39,
+      "fossil_share_elec": 83.192,
+      "nuclear_share_elec": 2.76,
+      "renewables_share_elec": 14.048,
+      "year": 2000
+    },
+    {
+      "electricity_generation": 586.09,
+      "fossil_share_elec": 83.777,
+      "nuclear_share_elec": 3.223,
+      "renewables_share_elec": 13.0,
+      "year": 2001
+    },
+    {
+      "electricity_generation": 609.64,
+      "fossil_share_elec": 84.888,
+      "nuclear_share_elec": 3.174,
+      "renewables_share_elec": 11.938,
+      "year": 2002
+    },
+    {
+      "electricity_generation": 638.13,
+      "fossil_share_elec": 85.462,
+      "nuclear_share_elec": 2.843,
+      "renewables_share_elec": 11.695,
+      "year": 2003
+    },
+    {
+      "electricity_generation": 698.32,
+      "fossil_share_elec": 81.318,
+      "nuclear_share_elec": 3.044,
+      "renewables_share_elec": 15.638,
+      "year": 2004
+    },
+    {
+      "electricity_generation": 704.52,
+      "fossil_share_elec": 82.229,
+      "nuclear_share_elec": 2.517,
+      "renewables_share_elec": 15.254,
+      "year": 2005
+    },
+    {
+      "electricity_generation": 744.43,
+      "fossil_share_elec": 80.496,
+      "nuclear_share_elec": 2.368,
+      "renewables_share_elec": 17.135,
+      "year": 2006
+    },
+    {
+      "electricity_generation": 796.26,
+      "fossil_share_elec": 79.959,
+      "nuclear_share_elec": 2.239,
+      "renewables_share_elec": 17.802,
+      "year": 2007
+    },
+    {
+      "electricity_generation": 828.41,
+      "fossil_share_elec": 81.393,
+      "nuclear_share_elec": 1.838,
+      "renewables_share_elec": 16.768,
+      "year": 2008
+    },
+    {
+      "electricity_generation": 878.63,
+      "fossil_share_elec": 82.92,
+      "nuclear_share_elec": 1.914,
+      "renewables_share_elec": 15.166,
+      "year": 2009
+    },
+    {
+      "electricity_generation": 936.39,
+      "fossil_share_elec": 82.421,
+      "nuclear_share_elec": 2.465,
+      "renewables_share_elec": 15.114,
+      "year": 2010
+    },
+    {
+      "electricity_generation": 1032.32,
+      "fossil_share_elec": 80.223,
+      "nuclear_share_elec": 3.121,
+      "renewables_share_elec": 16.656,
+      "year": 2011
+    },
+    {
+      "electricity_generation": 1088.42,
+      "fossil_share_elec": 82.087,
+      "nuclear_share_elec": 3.045,
+      "renewables_share_elec": 14.868,
+      "year": 2012
+    },
+    {
+      "electricity_generation": 1141.23,
+      "fossil_share_elec": 81.047,
+      "nuclear_share_elec": 2.919,
+      "renewables_share_elec": 16.034,
+      "year": 2013
+    },
+    {
+      "electricity_generation": 1258.68,
+      "fossil_share_elec": 81.473,
+      "nuclear_share_elec": 2.756,
+      "renewables_share_elec": 15.77,
+      "year": 2014
+    },
+    {
+      "electricity_generation": 1310.56,
+      "fossil_share_elec": 82.452,
+      "nuclear_share_elec": 2.923,
+      "renewables_share_elec": 14.625,
+      "year": 2015
+    },
+    {
+      "electricity_generation": 1394.93,
+      "fossil_share_elec": 82.845,
+      "nuclear_share_elec": 2.717,
+      "renewables_share_elec": 14.438,
+      "year": 2016
+    },
+    {
+      "electricity_generation": 1462.39,
+      "fossil_share_elec": 81.99,
+      "nuclear_share_elec": 2.558,
+      "renewables_share_elec": 15.451,
+      "year": 2017
+    },
+    {
+      "electricity_generation": 1571.65,
+      "fossil_share_elec": 81.222,
+      "nuclear_share_elec": 2.485,
+      "renewables_share_elec": 16.294,
+      "year": 2018
+    },
+    {
+      "electricity_generation": 1600.98,
+      "fossil_share_elec": 79.563,
+      "nuclear_share_elec": 2.821,
+      "renewables_share_elec": 17.617,
+      "year": 2019
+    },
+    {
+      "electricity_generation": 1563.43,
+      "fossil_share_elec": 78.14,
+      "nuclear_share_elec": 2.853,
+      "renewables_share_elec": 19.007,
+      "year": 2020
+    },
+    {
+      "electricity_generation": 1678.72,
+      "fossil_share_elec": 78.593,
+      "nuclear_share_elec": 2.616,
+      "renewables_share_elec": 18.791,
+      "year": 2021
+    },
+    {
+      "electricity_generation": 1804.61,
+      "fossil_share_elec": 77.25,
+      "nuclear_share_elec": 2.56,
+      "renewables_share_elec": 20.19,
+      "year": 2022
+    },
+    {
+      "electricity_generation": 1918.26,
+      "fossil_share_elec": 78.201,
+      "nuclear_share_elec": 2.513,
+      "renewables_share_elec": 19.287,
+      "year": 2023
+    },
+    {
+      "electricity_generation": 2036.52,
+      "fossil_share_elec": 77.506,
+      "nuclear_share_elec": 2.686,
+      "renewables_share_elec": 19.808,
+      "year": 2024
+    }
+  ]
+}

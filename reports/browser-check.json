@@ -1,0 +1,8 @@
+{
+  "slug": "energy-brief",
+  "heading": "Energy Brief",
+  "scrollWidth": 1280,
+  "viewport": 1280,
+  "default_ui_result": "rendered successfully",
+  "screenshot": "screenshots/app.png"
+}
