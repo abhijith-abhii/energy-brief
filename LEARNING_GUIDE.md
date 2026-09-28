@@ -23,11 +23,15 @@ Follow the README installation block, then: Compare a country's electricity gene
 
 ## Five interview questions
 
-1. **What problem does this project solve, and what is its unit of work?** Explain research electricity generation trends reproducibly, identify industry researchers as the audience, and trace one concrete example through the files above. Use the demonstration output rather than hypothetical impact.
-2. **Why did you choose the first design decision?** Pin the public dataset commit and hash both source and extracted subset. Show the corresponding implementation and a test that would fail if that property were removed.
-3. **How do you protect correctness when inputs or execution change?** Retain missing observations and report the actual endpoints used instead of interpolating silently. Explain the relevant invalid-input or edge-case test and distinguish a checked property from an untested assumption.
-4. **How do you make results inspectable and reproducible?** Keep electricity-generation units and renewable-share changes distinct from total energy or causal policy effects. Point to actual outputs and recorded commands. Explain why a successful example is weaker evidence than a tested boundary or independently reconciled total.
-5. **What would you improve before real deployment or real-data use?** Six selected countries and years 2000–2024. Source revisions, missingness and country coverage affect comparisons. Descriptive research, not an investment forecast or causal estimate. Upstream data attribution and terms remain applicable. Choose one limitation, describe the missing evidence, and propose a measurable acceptance check rather than promising production readiness.
+1. **Where did the data come from?** A pinned Our World in Data energy-data commit, with original provider attribution preserved in the codebook. The project selects six countries from 2000 through 2024.
+
+2. **How do you reproduce the exact subset?** The acquisition script downloads the pinned CSV and checks both the full-source and selected-subset SHA-256 values. A mismatch stops the process before overwriting the existing data.
+
+3. **Why preserve missing observations?** Replacing missing energy values with zero would turn lack of evidence into a physical claim. Summaries therefore use actual observed endpoints and retain missing values.
+
+4. **How are shares and generation compared?** Generation is measured in TWh. Changes in electricity shares are percentage-point differences, while compound annual growth uses observed positive endpoints and elapsed years.
+
+5. **Does a trend identify its cause?** No. This is a descriptive comparison of selected countries and years. Policy, prices, weather and measurement revisions are possible influences that the dataset alone cannot isolate.
 
 ## Independent exercise
 
@@ -41,6 +45,6 @@ The implementation was developed with substantial AI assistance under Abhijith V
 
 Suggested factual bullet after personally validating the demo:
 
-- Implemented and validated research electricity generation trends reproducibly using Python · pandas · Flask, with pinned public data and documented correctness checks and limitations.
+- Published a reproducible electricity-generation report across six countries using a pinned 150-row OWID subset, verified checksums and explicit missing-data and unit handling.
 
 Use [VERIFICATION.md](VERIFICATION.md) to add only measured numbers. Do not claim production traffic, users, savings, upstream acceptance or cloud deployment without corresponding evidence.
